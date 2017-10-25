@@ -14,7 +14,7 @@ terraform {
 }
 
 module "mesos" {
-  source = "github.com/maxxsure/terraform-mesos-module"
+  source = "github.com/tuier/terraform-mesos-module"
 
   # cluster
   cluster_name   = "maxxscan"
