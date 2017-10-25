@@ -8,7 +8,7 @@ terraform {
   required_version = ">= 0.9.3"
   backend "s3" {
     bucket = "maxxsure-terraform-state"
-    key    = "terraform/customers/maxxsure/provider/aws/remotestate/ci-instances.tfstate"
+    key    = "terraform/customers/maxxsure/provider/mesos/remotestate/ci-instances.tfstate"
     region = "us-east-1"
   }
 }
