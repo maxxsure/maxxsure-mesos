@@ -22,17 +22,17 @@ module "mesos" {
   network_number = 42
 
   #zookeeper
-  zookeeper_ami          = "ami-********"
+  zookeeper_ami          = "ami-8c1be5f6"
   instance_type_zookeeer = "m3.medium"
   zookeeper_capacity     = "3"
 
   #mesos master
-  mesos_master_ami     = "ami-********"
+  mesos_master_ami     = "ami-8c1be5f6"
   instance_type_master = "m3.medium"
   master_capacity      = "1"
 
   #mesos agent
-  mesos_agent_ami     = "ami-********"
+  mesos_agent_ami     = "ami-8c1be5f6"
   instance_type_agent = "m3.medium"
   agent_min_capacity  = "2"
 
